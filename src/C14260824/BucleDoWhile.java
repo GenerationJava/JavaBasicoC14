@@ -28,8 +28,9 @@ public class BucleDoWhile {
                     System.out.println("El resultado de la división es");
                     break;
                 default:
-                    System.out.println("Saliste de la calculadora");
+                    System.out.println("Saliste de la calculadora, ingresa una nueva opción");
             }
+            //Luego de ejecutar el bloque Do por lo menos una vez, evalúa la condición, si es true sigue ejecutando el bloque
         } while (opcion < 0 || opcion > 4);
 
     }
