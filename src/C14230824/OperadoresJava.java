@@ -135,6 +135,9 @@ public class OperadoresJava {
                 break;
         }
 
+        //OPERADOR TERNARIO
+        String mensajeAMostrar = numeroDia == 1 ? "El lunes ya va a terminar" : "Es otro día de la semana";
+        System.out.println(mensajeAMostrar);
 
 
     }
