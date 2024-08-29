@@ -13,6 +13,11 @@ public class TablaDeMultiplicar {
             System.out.println(numeroIngresado + " x " + i + " = " + (numeroIngresado*i));
         }
 
+        /*
+        PracticaMetodos instanciaDeClase = new PracticaMetodos();
+        System.out.println(instanciaDeClase.suma(5,5));
+        instanciaDeClase.resta(5,3);
+         */
 
     }
 }

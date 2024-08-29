@@ -48,7 +48,7 @@ public class PracticaHashMap {
             System.out.println("El entrenador se llama " + clave + " y " + " su pokemon se llama " + pokemonFavorito.get(clave));
         }
 
-        
+
 
 
 
