@@ -1,3 +1,6 @@
+import C14290824.CalculadorApp;
+import C14300824.Perro;
+
 import java.util.Scanner;
 
 public class Main {
@@ -74,12 +77,19 @@ public class Main {
         System.out.println(miMain.variableInstancia);
 
         //Variable de clase para perro
-        System.out.println("El perro tiene " + Perro.numeroPatas + " patas");
+
+        System.out.println("El perro tiene " + " patas");
 
         //Variable de instancia para perro
         Perro nuevoPerro = new Perro();
+        /*
         nuevoPerro.nombre = "Firulais";
-        System.out.println("El perro se llama " + nuevoPerro.nombre);
+        System.out.println("El perro se llama " + nuevoPerro.nombre);*/
+        System.out.println("El perro tiene " + nuevoPerro.getNumeroOrejas() + " orejas");
+        nuevoPerro.setTieneCola(false);//Cambio el valor del atributo
+        System.out.println("El perro tiene cola? " + nuevoPerro.getTieneCola());//Llamo al valor del atributo
+
+
 
         //Constantes
         final int constanteEntero = 50;
