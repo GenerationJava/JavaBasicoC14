@@ -82,9 +82,10 @@ public class Main {
 
         //Variable de instancia para perro
         Perro nuevoPerro = new Perro();
-        /*
-        nuevoPerro.nombre = "Firulais";
-        System.out.println("El perro se llama " + nuevoPerro.nombre);*/
+
+        nuevoPerro.setNombre("Firulais");//Mediante el setter de su superclase o clase padre, cambio el nombre
+        System.out.println("El perro se llama " + nuevoPerro.getNombre());//Mediante el getter de su superclase accedo al valor del nombre
+
         System.out.println("El perro tiene " + nuevoPerro.getNumeroOrejas() + " orejas");
         nuevoPerro.setTieneCola(false);//Cambio el valor del atributo
         System.out.println("El perro tiene cola? " + nuevoPerro.getTieneCola());//Llamo al valor del atributo
