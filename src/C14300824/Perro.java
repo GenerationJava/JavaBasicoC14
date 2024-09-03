@@ -53,9 +53,16 @@ public class Perro extends Mascota {
         return "Guau guau";
     }
 
-    public void comer() {
+    //Usamos sobreescritura para cambiar el comportamiento del método de la superclase
+    @Override
+    public void alimentarse() {
+        //Ahora el método imprime esto en vez de lo que indicaba en la superclase
         System.out.println("Come 2kg de comida al día");
     }
+
+
+
+
 
 
 

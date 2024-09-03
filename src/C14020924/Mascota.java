@@ -53,4 +53,10 @@ public class Mascota {
     public void setRaza(String raza) {
         this.raza = raza;
     }
+
+    //Métodos propios
+    //Método que vamos a sobreescribir
+    public void alimentarse() {
+        System.out.println("La mascota comió mucho");
+    }
 }
